@@ -17,5 +17,6 @@ namespace DigitalDiary.Data
 
         }
         public DbSet<Registration> tblregistration { get; set; }
+        public DbSet<Entry> tblentry { get; set; }
     }
 }

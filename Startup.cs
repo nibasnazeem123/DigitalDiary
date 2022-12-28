@@ -41,7 +41,7 @@ namespace DigitalDiary
                     builder.WithOrigins("http://localhost:4200");
                 });
             });
-
+            
 
             services.AddControllers();
         }
